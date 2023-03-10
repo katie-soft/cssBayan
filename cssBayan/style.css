@@ -1,0 +1,28 @@
+.accordion {
+    width: 40%;
+    height: 400px;
+    margin: 30px auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.acc__section {
+    border: 1px solid black;
+}
+
+input {
+    display: none;
+}
+
+label {
+    display: block;
+}
+
+p {
+    display: none;
+}
+
+input:checked~p {
+    display: block;
+}
