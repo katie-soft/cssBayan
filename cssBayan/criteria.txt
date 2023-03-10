@@ -1,0 +1,48 @@
+Criteria for estimation\evaluation
+Max score 140
+
++ Everything is done from Repository requirements and how to submit task section +30
+
++ The accordion component is centered on the screen, with equal indents on the left and right +10
+
++ Icons, meme texts and meme images are exist +5
+
++ Placement of the meme, icons and meme text are the same as in provided example gif images +5
+
++ Smooth change (transition) of the meme images and icons is done +20
+
++ The cursor when it is hovering over the rows of the accordion is changing +5
+
++ Only flexible dimensions are used rem, em, %, vh, vw, fr and etc... The accordion is responsive +10
+
++ Pseudo-elements are not used (note: pseudo-classes are allowed) +5
+
++ Initially, the first meme should be expanded +5
+
+Mobile first approach is used - cursor over the memes (hover) effect exists only for desktop devices +10
+
+Font size is changed at each device (mobile, tablet, desktop) +5
+
+Responsive design with three breakpoints for mobile, tablet, and desktop exist. Accordion is displayed correctly at mobile 320x568, tablet 820x1180, desktop 1920×1080 +10
+
+All visual effects when the cursor is hovering over the memes, when the mouse is down on a meme, and when a meme is selected are implemented +10
+
+- The entire row (text, icon, and meme image) clickable +5
+
+- All blocks/parts of the accordion are in base flow of the dom elements. All elements are not positioned with top, left, right, bottom. float is not used. The value of position is only static +5
+
+Functional requirements:
+
++ Design is at your discretion, but the layout of an accordion should include a meme image, text, and an icon. The placement of these elements should match the provided above example image;
+
++ There should be icon for state of the expanded\collapsed item (you can choose your own icons e.g. from FontAwesome);
+Implement visual effects when the cursor is hovering over the memes, when the mouse is down on a meme (moment of mouse down - for active effect);
++ Smooth transitions are applied for changing of memes and for changing of icon;
+Make the entire row (text, icon, and meme image) clickable;
+
++ Center the accordion component on the screen, with equal indents on the left and right;
++ Change the cursor when it is hovering over the accordion;
++ Initially, the first meme should be expanded (chosen/selected);
+Font size should be changed at each device (mobile, tablet, desktop)
+Implement responsive design with three breakpoints. Accordion is displayed correctly at mobile 320x568, tablet 820x1180, desktop 1920×1080;
+Mobile first approach is used - cursor over the memes (hover) effect exists only for desktop devices MDN Note;
